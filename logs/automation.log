@@ -1,0 +1,1736 @@
+2026-01-06 00:34:31 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:31 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:31 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:31 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:31 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:34:31 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:31 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:31 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:34:31 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:31 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:34:31 INFO  BaseClass:116 - Launching Firefox browser
+2026-01-06 00:34:31 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:31 INFO  BaseClass:106 - Launching Chrome browser
+2026-01-06 00:34:31 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:31 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:34:34 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:34:34 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:34:34 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:34:34 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:34:34 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:34:34 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:34:39 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:34:39 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:34:39 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:34:40 DEBUG TC04_AddToWishList:31 - Entering login credentials
+2026-01-06 00:34:41 INFO  TC04_AddToWishList:37 - Login completed successfully
+2026-01-06 00:34:41 DEBUG TC04_AddToWishList:40 - Navigating to Laptop & Notebook section
+2026-01-06 00:34:42 DEBUG TC04_AddToWishList:45 - Validating Laptop & Notebook page
+2026-01-06 00:34:42 DEBUG TC04_AddToWishList:50 - Selecting a product
+2026-01-06 00:34:42 ERROR BaseClass:146 - Exception occurred during browser setup
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette 
+Host info: host: 'DESKTOP-ER2N3OM', ip: '10.0.5.37'
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:109)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:84)
+	at testBase.BaseClass.openApp(BaseClass.java:117)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:42 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:42 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:42 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:34:42 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:42 INFO  BaseClass:116 - Launching Firefox browser
+2026-01-06 00:34:43 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:34:43 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:34:43 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:34:43 DEBUG TC04_AddToWishList:31 - Entering login credentials
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:37 - Login completed successfully
+2026-01-06 00:34:44 DEBUG TC04_AddToWishList:40 - Navigating to Laptop & Notebook section
+2026-01-06 00:34:44 ERROR TC04_AddToWishList:69 - Unexpected exception occurred in TC04_AddToWishList
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31aebc9646e5f533c35ede0628d504f9, findElement {value=//div[@class='description']//a[contains(text(),'HP LP3065')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\santo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64007}, goog:processID: 14176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64007/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31aebc9646e5f533c35ede0628d504f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:486)
+	at pageObjects.LaptopNotbbokPage.seletProduct(LaptopNotbbokPage.java:36)
+	at testCases.TC04_AddToWishList.testAddToWishList(TC04_AddToWishList.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:34:44 WARN  RetryAnalyzer:18 - Retrying test 'testAddToWishList' (1 of 2)
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:34:44 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:34:44 ERROR TC04_AddToWishList:69 - Unexpected exception occurred in TC04_AddToWishList
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31aebc9646e5f533c35ede0628d504f9, findElement {value=//i[@class='fa-solid fa-user'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\santo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64007}, goog:processID: 14176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64007/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31aebc9646e5f533c35ede0628d504f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.HomePage.clickMyaccount(HomePage.java:37)
+	at testCases.TC04_AddToWishList.testAddToWishList(TC04_AddToWishList.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:34:44 WARN  RetryAnalyzer:18 - Retrying test 'testAddToWishList' (2 of 2)
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:34:44 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:34:44 ERROR TC04_AddToWishList:69 - Unexpected exception occurred in TC04_AddToWishList
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31aebc9646e5f533c35ede0628d504f9, findElement {value=//i[@class='fa-solid fa-user'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\santo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64007}, goog:processID: 14176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64007/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31aebc9646e5f533c35ede0628d504f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.HomePage.clickMyaccount(HomePage.java:37)
+	at testCases.TC04_AddToWishList.testAddToWishList(TC04_AddToWishList.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:44 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:34:44 DEBUG BaseClass:171 - Capturing screenshot for test: testAddToWishList
+2026-01-06 00:34:44 ERROR BaseClass:187 - Failed to capture screenshot for test: testAddToWishList
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31aebc9646e5f533c35ede0628d504f9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\santo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64007}, goog:processID: 14176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64007/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31aebc9646e5f533c35ede0628d504f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:346)
+	at testBase.BaseClass.captureScreen(BaseClass.java:175)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:86)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:44 DEBUG BaseClass:171 - Capturing screenshot for test: testAddToWishList
+2026-01-06 00:34:44 ERROR BaseClass:187 - Failed to capture screenshot for test: testAddToWishList
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31aebc9646e5f533c35ede0628d504f9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\santo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64007}, goog:processID: 14176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64007/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31aebc9646e5f533c35ede0628d504f9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:346)
+	at testBase.BaseClass.captureScreen(BaseClass.java:175)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:86)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1013)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:34:44 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:34:44 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:34:46 DEBUG TC04_AddToWishList:45 - Validating Laptop & Notebook page
+2026-01-06 00:34:46 DEBUG TC04_AddToWishList:50 - Selecting a product
+2026-01-06 00:34:47 DEBUG TC04_AddToWishList:54 - Clicking Add to Wishlist icon
+2026-01-06 00:34:49 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:34:49 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:34:49 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:34:49 DEBUG TC04_AddToWishList:58 - Validating Wishlist success alert
+2026-01-06 00:34:49 INFO  TC04_AddToWishList:62 - Product successfully added to Wishlist
+2026-01-06 00:34:49 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:34:49 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:34:49 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:34:50 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:50 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:50 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:34:50 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:50 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:34:52 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:34:52 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:34:52 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:34:55 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:34:55 INFO  TC01_LaunchApplication:21 - ===== TC01_LaunchApplication Test Started =====
+2026-01-06 00:34:55 DEBUG TC01_LaunchApplication:24 - Creating HomePage object
+2026-01-06 00:34:55 DEBUG TC01_LaunchApplication:27 - Fetching page title
+2026-01-06 00:34:55 INFO  TC01_LaunchApplication:29 - Actual page title: Your store of fun
+2026-01-06 00:34:55 DEBUG TC01_LaunchApplication:31 - Validating page title
+2026-01-06 00:34:55 INFO  TC01_LaunchApplication:34 - Page title validation PASSED
+2026-01-06 00:34:55 INFO  TC01_LaunchApplication:45 - ===== TC01_LaunchApplication Test Finished =====
+2026-01-06 00:34:55 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:34:55 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:34:57 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:34:57 INFO  TC01_LaunchApplication:21 - ===== TC01_LaunchApplication Test Started =====
+2026-01-06 00:34:57 DEBUG TC01_LaunchApplication:24 - Creating HomePage object
+2026-01-06 00:34:57 DEBUG TC01_LaunchApplication:27 - Fetching page title
+2026-01-06 00:34:57 INFO  TC01_LaunchApplication:29 - Actual page title: Your store of fun
+2026-01-06 00:34:57 DEBUG TC01_LaunchApplication:31 - Validating page title
+2026-01-06 00:34:57 INFO  TC01_LaunchApplication:34 - Page title validation PASSED
+2026-01-06 00:34:57 INFO  TC01_LaunchApplication:45 - ===== TC01_LaunchApplication Test Finished =====
+2026-01-06 00:34:57 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:34:57 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:34:57 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:57 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:57 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:34:57 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:57 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:34:59 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:34:59 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:34:59 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:34:59 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:34:59 INFO  BaseClass:116 - Launching Firefox browser
+2026-01-06 00:35:00 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:35:00 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:35:00 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:35:05 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:35:05 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:35:05 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:35:07 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:35:07 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:35:07 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:35:07 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:35:07 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:35:07 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:35:09 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:35:10 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:35:10 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:35:10 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:35:11 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:35:12 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:35:12 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:35:12 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:35:13 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:35:13 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:35:14 INFO  TC03_AddToCart:55 - Product successfully added to cart
+2026-01-06 00:35:14 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:35:14 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:35:14 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:35:14 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:35:14 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:35:14 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:35:14 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:35:14 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:35:15 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:35:16 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:35:16 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:35:16 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:35:17 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:35:20 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:35:20 INFO  TC06_AddAffiliate:21 - ===== TC06_AddAffiliate Test Started =====
+2026-01-06 00:35:20 DEBUG TC06_AddAffiliate:25 - Clicking on Affiliate link from Home page
+2026-01-06 00:35:22 DEBUG TC06_AddAffiliate:30 - Logging in to Affiliate account
+2026-01-06 00:35:22 DEBUG TC06_AddAffiliate:37 - Validating Affiliate page navigation
+2026-01-06 00:35:23 INFO  TC06_AddAffiliate:43 - Affiliate page loaded successfully
+2026-01-06 00:35:23 DEBUG TC06_AddAffiliate:46 - Filling Affiliate details form
+2026-01-06 00:35:24 DEBUG TC06_AddAffiliate:55 - Validating Affiliate success alert
+2026-01-06 00:35:24 INFO  TC06_AddAffiliate:60 - Affiliate form submitted successfully
+2026-01-06 00:35:24 INFO  TC06_AddAffiliate:71 - ===== TC06_AddAffiliate Test Finished =====
+2026-01-06 00:35:24 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:35:24 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:35:24 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:35:24 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:35:24 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:35:24 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:35:24 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:35:26 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:35:26 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:35:26 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:35:27 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:27 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:35:27 WARN  RetryAnalyzer:18 - Retrying test 'testAddToCart' (1 of 2)
+2026-01-06 00:35:27 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:35:27 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:35:28 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:35:28 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:35:28 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:35:29 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:35:30 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:35:30 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:35:30 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:35:32 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:35:32 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:35:32 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:35:33 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:35:33 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:35:35 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:35:37 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:35:37 DEBUG TC05_CompletePurchase:54 - Proceeding to Checkout
+2026-01-06 00:35:38 DEBUG TC05_CompletePurchase:59 - Clicking Checkout login button
+2026-01-06 00:35:38 DEBUG TC05_CompletePurchase:62 - Logging in during checkout
+2026-01-06 00:35:39 DEBUG TC05_CompletePurchase:69 - Completing checkout steps
+2026-01-06 00:35:41 DEBUG TC05_CompletePurchase:74 - Validating order confirmation
+2026-01-06 00:35:42 INFO  TC05_CompletePurchase:78 - Order placed successfully
+2026-01-06 00:35:42 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:35:42 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:35:42 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:35:42 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:35:42 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:35:42 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:35:42 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:35:42 INFO  BaseClass:111 - Launching Edge browser
+2026-01-06 00:35:44 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:44 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:35:44 WARN  RetryAnalyzer:18 - Retrying test 'testAddToCart' (2 of 2)
+2026-01-06 00:35:44 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:35:44 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:35:45 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:35:45 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:35:45 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:35:45 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:35:45 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:35:45 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:35:46 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:35:47 ERROR BaseClass:146 - Exception occurred during browser setup
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.57)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df9fc6c3852fa8be0e7c83e7098c7c19, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 141.0.3537.57, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64408}, msedge: {msedgedriverVersion: 141.0.3537.99 (1b2f83d6a142..., userDataDir: C:\Users\santo\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64408/devtoo..., se:cdpVersion: 141.0.3537.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df9fc6c3852fa8be0e7c83e7098c7c19
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1064)
+	at testBase.BaseClass.openApp(BaseClass.java:138)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:35:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:35:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:35:49 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:35:50 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:35:57 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchWindowException: BrowsingContext does no longer exist
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:57 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:35:57 DEBUG BaseClass:171 - Capturing screenshot for test: testAddToCart
+2026-01-06 00:35:57 ERROR BaseClass:187 - Failed to capture screenshot for test: testAddToCart
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:346)
+	at testBase.BaseClass.captureScreen(BaseClass.java:175)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:86)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:57 DEBUG BaseClass:171 - Capturing screenshot for test: testAddToCart
+2026-01-06 00:35:57 ERROR BaseClass:187 - Failed to capture screenshot for test: testAddToCart
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:346)
+	at testBase.BaseClass.captureScreen(BaseClass.java:175)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:86)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1013)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:35:57 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:35:57 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:35:57 ERROR BaseClass:164 - Error occurred while closing the browser
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [65dd315c-06a5-4171-bfd3-ce39bb60678b, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2552, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65dd315c-06a5-4171-bfd3-ce39bb60678b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:51:49 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:51:49 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:51:49 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:51:49 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:51:49 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:51:49 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:51:49 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:51:49 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:51:49 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:51:49 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:51:49 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:51:49 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:51:53 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:51:53 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:51:53 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:51:53 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:51:53 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:51:53 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:51:57 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:51:58 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:51:58 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:00 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:00 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:52:00 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:52:00 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:00 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:52:00 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:52:01 DEBUG TC04_AddToWishList:31 - Entering login credentials
+2026-01-06 00:52:01 DEBUG TC04_AddToWishList:31 - Entering login credentials
+2026-01-06 00:52:01 INFO  TC04_AddToWishList:37 - Login completed successfully
+2026-01-06 00:52:01 DEBUG TC04_AddToWishList:40 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:01 INFO  TC04_AddToWishList:37 - Login completed successfully
+2026-01-06 00:52:01 DEBUG TC04_AddToWishList:40 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:03 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:03 INFO  TC04_AddToWishList:22 - ===== TC04_AddToWishList Test Started =====
+2026-01-06 00:52:03 DEBUG TC04_AddToWishList:26 - Navigating to Login page
+2026-01-06 00:52:04 DEBUG TC04_AddToWishList:45 - Validating Laptop & Notebook page
+2026-01-06 00:52:04 DEBUG TC04_AddToWishList:50 - Selecting a product
+2026-01-06 00:52:04 DEBUG TC04_AddToWishList:45 - Validating Laptop & Notebook page
+2026-01-06 00:52:04 DEBUG TC04_AddToWishList:50 - Selecting a product
+2026-01-06 00:52:06 DEBUG TC04_AddToWishList:54 - Clicking Add to Wishlist icon
+2026-01-06 00:52:06 DEBUG TC04_AddToWishList:54 - Clicking Add to Wishlist icon
+2026-01-06 00:52:06 DEBUG TC04_AddToWishList:31 - Entering login credentials
+2026-01-06 00:52:06 INFO  TC04_AddToWishList:37 - Login completed successfully
+2026-01-06 00:52:06 DEBUG TC04_AddToWishList:40 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:07 DEBUG TC04_AddToWishList:58 - Validating Wishlist success alert
+2026-01-06 00:52:07 DEBUG TC04_AddToWishList:58 - Validating Wishlist success alert
+2026-01-06 00:52:08 INFO  TC04_AddToWishList:62 - Product successfully added to Wishlist
+2026-01-06 00:52:08 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:52:08 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:08 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:08 INFO  TC04_AddToWishList:62 - Product successfully added to Wishlist
+2026-01-06 00:52:08 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:52:08 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:08 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:08 DEBUG TC04_AddToWishList:45 - Validating Laptop & Notebook page
+2026-01-06 00:52:08 DEBUG TC04_AddToWishList:50 - Selecting a product
+2026-01-06 00:52:08 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:08 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:08 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:52:08 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:08 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:08 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:08 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:52:08 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:09 DEBUG TC04_AddToWishList:54 - Clicking Add to Wishlist icon
+2026-01-06 00:52:09 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:09 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:09 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:11 DEBUG TC04_AddToWishList:58 - Validating Wishlist success alert
+2026-01-06 00:52:11 INFO  TC04_AddToWishList:62 - Product successfully added to Wishlist
+2026-01-06 00:52:11 INFO  TC04_AddToWishList:73 - ===== TC04_AddToWishList Test Finished =====
+2026-01-06 00:52:11 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:11 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:12 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:12 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:12 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:16 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:16 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:16 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:52:16 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:16 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:16 INFO  TC01_LaunchApplication:21 - ===== TC01_LaunchApplication Test Started =====
+2026-01-06 00:52:16 DEBUG TC01_LaunchApplication:24 - Creating HomePage object
+2026-01-06 00:52:16 DEBUG TC01_LaunchApplication:27 - Fetching page title
+2026-01-06 00:52:17 INFO  TC01_LaunchApplication:29 - Actual page title: Your store of fun
+2026-01-06 00:52:17 DEBUG TC01_LaunchApplication:31 - Validating page title
+2026-01-06 00:52:17 INFO  TC01_LaunchApplication:34 - Page title validation PASSED
+2026-01-06 00:52:17 INFO  TC01_LaunchApplication:45 - ===== TC01_LaunchApplication Test Finished =====
+2026-01-06 00:52:17 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:17 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:17 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:17 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:17 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:52:17 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:18 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:18 INFO  TC01_LaunchApplication:21 - ===== TC01_LaunchApplication Test Started =====
+2026-01-06 00:52:18 DEBUG TC01_LaunchApplication:24 - Creating HomePage object
+2026-01-06 00:52:18 DEBUG TC01_LaunchApplication:27 - Fetching page title
+2026-01-06 00:52:18 INFO  TC01_LaunchApplication:29 - Actual page title: Your store of fun
+2026-01-06 00:52:18 DEBUG TC01_LaunchApplication:31 - Validating page title
+2026-01-06 00:52:18 INFO  TC01_LaunchApplication:34 - Page title validation PASSED
+2026-01-06 00:52:18 INFO  TC01_LaunchApplication:45 - ===== TC01_LaunchApplication Test Finished =====
+2026-01-06 00:52:18 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:18 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:18 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:18 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:18 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:52:18 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:19 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:19 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:19 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:21 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:21 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:21 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:24 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:24 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:52:24 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:24 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:24 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:24 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:26 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:26 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:52:26 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:26 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:52:27 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:52:27 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:52:28 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:52:28 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:52:28 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:52:29 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:52:29 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:29 INFO  TC01_LaunchApplication:21 - ===== TC01_LaunchApplication Test Started =====
+2026-01-06 00:52:29 DEBUG TC01_LaunchApplication:24 - Creating HomePage object
+2026-01-06 00:52:29 DEBUG TC01_LaunchApplication:27 - Fetching page title
+2026-01-06 00:52:29 INFO  TC01_LaunchApplication:29 - Actual page title: Your store of fun
+2026-01-06 00:52:29 DEBUG TC01_LaunchApplication:31 - Validating page title
+2026-01-06 00:52:29 INFO  TC01_LaunchApplication:34 - Page title validation PASSED
+2026-01-06 00:52:29 INFO  TC01_LaunchApplication:45 - ===== TC01_LaunchApplication Test Finished =====
+2026-01-06 00:52:29 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:29 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:30 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:52:31 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:52:32 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:32 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:32 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:52:32 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:32 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:52:32 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:52:34 INFO  TC03_AddToCart:55 - Product successfully added to cart
+2026-01-06 00:52:34 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:52:34 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:34 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:34 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:52:35 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:35 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:35 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:52:35 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:35 INFO  TC03_AddToCart:55 - Product successfully added to cart
+2026-01-06 00:52:35 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:52:35 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:35 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:36 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:36 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:36 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:37 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:37 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:37 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:52:37 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:39 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:39 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:39 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:40 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:40 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:40 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:41 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:41 INFO  TC06_AddAffiliate:21 - ===== TC06_AddAffiliate Test Started =====
+2026-01-06 00:52:41 DEBUG TC06_AddAffiliate:25 - Clicking on Affiliate link from Home page
+2026-01-06 00:52:42 DEBUG TC06_AddAffiliate:30 - Logging in to Affiliate account
+2026-01-06 00:52:43 DEBUG TC06_AddAffiliate:37 - Validating Affiliate page navigation
+2026-01-06 00:52:44 INFO  TC06_AddAffiliate:43 - Affiliate page loaded successfully
+2026-01-06 00:52:44 DEBUG TC06_AddAffiliate:46 - Filling Affiliate details form
+2026-01-06 00:52:45 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:45 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:52:45 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:46 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:46 INFO  TC06_AddAffiliate:21 - ===== TC06_AddAffiliate Test Started =====
+2026-01-06 00:52:46 DEBUG TC06_AddAffiliate:25 - Clicking on Affiliate link from Home page
+2026-01-06 00:52:46 DEBUG TC06_AddAffiliate:55 - Validating Affiliate success alert
+2026-01-06 00:52:46 INFO  TC06_AddAffiliate:60 - Affiliate form submitted successfully
+2026-01-06 00:52:46 INFO  TC06_AddAffiliate:71 - ===== TC06_AddAffiliate Test Finished =====
+2026-01-06 00:52:46 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:46 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:46 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:52:46 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:52:46 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:52:47 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:47 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:47 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:52:47 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:47 DEBUG TC06_AddAffiliate:30 - Logging in to Affiliate account
+2026-01-06 00:52:48 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:52:48 DEBUG TC06_AddAffiliate:37 - Validating Affiliate page navigation
+2026-01-06 00:52:48 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:48 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:48 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:48 INFO  TC06_AddAffiliate:43 - Affiliate page loaded successfully
+2026-01-06 00:52:48 DEBUG TC06_AddAffiliate:46 - Filling Affiliate details form
+2026-01-06 00:52:50 DEBUG TC06_AddAffiliate:55 - Validating Affiliate success alert
+2026-01-06 00:52:50 INFO  TC06_AddAffiliate:60 - Affiliate form submitted successfully
+2026-01-06 00:52:50 INFO  TC06_AddAffiliate:71 - ===== TC06_AddAffiliate Test Finished =====
+2026-01-06 00:52:50 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:52:50 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:52:50 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:52:51 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:52:51 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:52:51 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:52:51 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:52:52 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:52:53 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:53 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:52:53 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:53 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:52:53 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:52:53 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:52:55 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:52:55 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:52:57 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:52:58 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:52:58 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:52:58 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:52:59 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:53:00 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:53:00 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:53:01 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:53:01 DEBUG TC05_CompletePurchase:54 - Proceeding to Checkout
+2026-01-06 00:53:02 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:53:02 DEBUG TC05_CompletePurchase:59 - Clicking Checkout login button
+2026-01-06 00:53:02 DEBUG TC05_CompletePurchase:62 - Logging in during checkout
+2026-01-06 00:53:02 DEBUG TC05_CompletePurchase:69 - Completing checkout steps
+2026-01-06 00:53:03 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [40fbaa8e-5e7c-4472-8324-d1ecea42cd1d, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11068, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 40fbaa8e-5e7c-4472-8324-d1ecea42cd1d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:53:03 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:53:03 WARN  RetryAnalyzer:18 - Retrying test 'testAddToCart' (1 of 2)
+2026-01-06 00:53:03 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:53:03 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:53:04 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:53:04 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:53:04 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:53:04 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:53:05 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:53:05 DEBUG TC05_CompletePurchase:74 - Validating order confirmation
+2026-01-06 00:53:05 INFO  TC05_CompletePurchase:78 - Order placed successfully
+2026-01-06 00:53:05 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:53:05 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:05 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:06 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:53:06 DEBUG TC05_CompletePurchase:54 - Proceeding to Checkout
+2026-01-06 00:53:06 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:53:06 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:53:06 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-01-06 00:53:06 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:53:07 DEBUG TC05_CompletePurchase:59 - Clicking Checkout login button
+2026-01-06 00:53:07 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:53:08 DEBUG TC05_CompletePurchase:62 - Logging in during checkout
+2026-01-06 00:53:08 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:53:08 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:53:08 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:53:08 DEBUG TC05_CompletePurchase:69 - Completing checkout steps
+2026-01-06 00:53:09 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:53:11 DEBUG TC05_CompletePurchase:74 - Validating order confirmation
+2026-01-06 00:53:11 INFO  TC05_CompletePurchase:78 - Order placed successfully
+2026-01-06 00:53:11 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:53:11 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:11 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:12 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:53:12 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:12 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:12 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:13 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:13 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:13 DEBUG TC02_Login:28 - Test data used → Email: smitasharma.qa@gmail.com
+2026-01-06 00:53:13 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:14 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:14 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:53:14 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:53:14 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-01-06 00:53:14 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:53:14 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:15 INFO  TC02_Login:50 - Login successful for user: smitasharma.qa@gmail.com
+2026-01-06 00:53:15 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:16 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:53:16 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:53:16 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:53:16 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:16 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:16 DEBUG TC02_Login:28 - Test data used → Email: nona@yahoo.com
+2026-01-06 00:53:16 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:17 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:17 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:17 INFO  TC02_Login:50 - Login successful for user: nona@yahoo.com
+2026-01-06 00:53:17 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:18 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:18 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:18 DEBUG TC02_Login:28 - Test data used → Email: sid@cloudberry.services
+2026-01-06 00:53:18 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:18 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:18 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:19 INFO  TC02_Login:50 - Login successful for user: sid@cloudberry.services
+2026-01-06 00:53:19 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:19 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [40fbaa8e-5e7c-4472-8324-d1ecea42cd1d, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11068, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 40fbaa8e-5e7c-4472-8324-d1ecea42cd1d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:53:19 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:53:19 WARN  RetryAnalyzer:18 - Retrying test 'testAddToCart' (2 of 2)
+2026-01-06 00:53:19 INFO  TC03_AddToCart:21 - ===== TC03_AddToCart Test Started =====
+2026-01-06 00:53:19 DEBUG TC03_AddToCart:25 - Navigating to Laptop & Notebook section
+2026-01-06 00:53:19 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:19 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:19 DEBUG TC02_Login:28 - Test data used → Email: apushedwoman@gmail.com
+2026-01-06 00:53:19 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:20 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:20 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:20 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:53:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:53:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:53:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:53:21 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:21 DEBUG TC02_Login:28 - Test data used → Email: smitasharma.qa@gmail.com
+2026-01-06 00:53:21 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:21 DEBUG TC03_AddToCart:31 - Validating Laptop & Notebook page is displayed
+2026-01-06 00:53:21 INFO  TC03_AddToCart:36 - Laptop & Notebook page validation PASSED
+2026-01-06 00:53:21 DEBUG TC03_AddToCart:39 - Selecting a product from the list
+2026-01-06 00:53:21 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:21 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:22 INFO  TC02_Login:50 - Login successful for user: apushedwoman@gmail.com
+2026-01-06 00:53:22 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:22 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:22 DEBUG TC03_AddToCart:43 - Setting delivery date
+2026-01-06 00:53:22 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:22 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:22 DEBUG TC02_Login:28 - Test data used → Email: hichamkhachiai@gmail.com
+2026-01-06 00:53:22 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:22 INFO  TC02_Login:50 - Login successful for user: smitasharma.qa@gmail.com
+2026-01-06 00:53:22 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:23 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:23 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:23 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:23 DEBUG TC02_Login:28 - Test data used → Email: nona@yahoo.com
+2026-01-06 00:53:23 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:23 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:23 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:24 INFO  TC02_Login:50 - Login successful for user: hichamkhachiai@gmail.com
+2026-01-06 00:53:24 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:24 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:24 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:24 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:24 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:24 INFO  TC02_Login:50 - Login successful for user: nona@yahoo.com
+2026-01-06 00:53:24 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:24 DEBUG TC03_AddToCart:47 - Clicking Add to Cart button
+2026-01-06 00:53:25 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:25 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:25 DEBUG TC02_Login:28 - Test data used → Email: sid@cloudberry.services
+2026-01-06 00:53:25 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:25 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:26 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:26 INFO  TC02_Login:50 - Login successful for user: sid@cloudberry.services
+2026-01-06 00:53:26 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:26 DEBUG TC03_AddToCart:50 - Validating Add to Cart success alert
+2026-01-06 00:53:26 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:26 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:26 DEBUG TC02_Login:28 - Test data used → Email: apushedwoman@gmail.com
+2026-01-06 00:53:26 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:27 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:27 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:28 INFO  TC02_Login:50 - Login successful for user: apushedwoman@gmail.com
+2026-01-06 00:53:28 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:28 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:28 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:53:28 DEBUG TC02_Login:28 - Test data used → Email: hichamkhachiai@gmail.com
+2026-01-06 00:53:28 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:53:28 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:53:28 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:53:29 INFO  TC02_Login:50 - Login successful for user: hichamkhachiai@gmail.com
+2026-01-06 00:53:29 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:53:29 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:53:29 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:29 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:36 ERROR TC03_AddToCart:62 - Unexpected exception occurred in TC03_AddToCart
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [40fbaa8e-5e7c-4472-8324-d1ecea42cd1d, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11068, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 40fbaa8e-5e7c-4472-8324-d1ecea42cd1d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:53:36 INFO  TC03_AddToCart:66 - ===== TC03_AddToCart Test Finished =====
+2026-01-06 00:53:36 DEBUG BaseClass:171 - Capturing screenshot for test: testAddToCart
+2026-01-06 00:53:36 INFO  BaseClass:183 - Screenshot saved at: C:\Users\santo\eclipse-workspace\Bootcamp-AI-Driven-Automation\NinjaV6\screenshots\testAddToCart_20260106005336.png
+2026-01-06 00:53:36 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:36 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:38 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:53:38 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:53:38 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:53:38 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:53:42 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:53:42 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:53:42 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:53:45 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:53:45 INFO  TC06_AddAffiliate:21 - ===== TC06_AddAffiliate Test Started =====
+2026-01-06 00:53:45 DEBUG TC06_AddAffiliate:25 - Clicking on Affiliate link from Home page
+2026-01-06 00:53:46 DEBUG TC06_AddAffiliate:30 - Logging in to Affiliate account
+2026-01-06 00:53:46 DEBUG TC06_AddAffiliate:37 - Validating Affiliate page navigation
+2026-01-06 00:53:47 INFO  TC06_AddAffiliate:43 - Affiliate page loaded successfully
+2026-01-06 00:53:47 DEBUG TC06_AddAffiliate:46 - Filling Affiliate details form
+2026-01-06 00:53:48 DEBUG TC06_AddAffiliate:55 - Validating Affiliate success alert
+2026-01-06 00:53:48 INFO  TC06_AddAffiliate:60 - Affiliate form submitted successfully
+2026-01-06 00:53:48 INFO  TC06_AddAffiliate:71 - ===== TC06_AddAffiliate Test Finished =====
+2026-01-06 00:53:48 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:53:48 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:53:50 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:53:50 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:53:50 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:53:50 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:53:54 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:53:54 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:53:54 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:53:57 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:53:57 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:53:57 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:53:58 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:53:58 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:53:59 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:54:02 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:54:03 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:54:13 ERROR TC05_CompletePurchase:85 - Unexpected exception occurred in TC05_CompletePurchase
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-success alert-dismissible']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3708b35d-2c12-4597-ae02-cfe25f6fbcd4, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5216, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3708b35d-2c12-4597-ae02-cfe25f6fbcd4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pageObjects.ProductDetailPage.isAddToCartAlertDisplayed(ProductDetailPage.java:72)
+	at testCases.TC05_CompletePurchase.testCompletePurchase(TC05_CompletePurchase.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:54:13 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:54:13 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (1 of 2)
+2026-01-06 00:54:13 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:54:13 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:54:15 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:54:15 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:54:16 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:54:18 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:54:20 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:54:24 DEBUG TC05_CompletePurchase:54 - Proceeding to Checkout
+2026-01-06 00:54:25 DEBUG TC05_CompletePurchase:59 - Clicking Checkout login button
+2026-01-06 00:54:25 DEBUG TC05_CompletePurchase:62 - Logging in during checkout
+2026-01-06 00:54:25 DEBUG TC05_CompletePurchase:69 - Completing checkout steps
+2026-01-06 00:54:27 ERROR TC05_CompletePurchase:85 - Unexpected exception occurred in TC05_CompletePurchase
+org.openqa.selenium.ElementClickInterceptedException: Element <button id="button-payment-methods" class="btn btn-primary" type="button"> is not clickable at point (1381,528) because another element <div id="modal-shipping" class="modal show"> obscures it
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3708b35d-2c12-4597-ae02-cfe25f6fbcd4, clickElement {id=541453d6-dfc3-44fc-b510-eeee3caee55e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5216, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (3708b35d-2c12-4597-ae02-cfe25f6fbcd4)] -> id: button-payment-methods]
+Session ID: 3708b35d-2c12-4597-ae02-cfe25f6fbcd4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.CheckOutPage.completeCheckout(CheckOutPage.java:54)
+	at testCases.TC05_CompletePurchase.testCompletePurchase(TC05_CompletePurchase.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:54:27 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:54:27 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (2 of 2)
+2026-01-06 00:54:27 INFO  TC05_CompletePurchase:24 - ===== TC05_CompletePurchase Test Started =====
+2026-01-06 00:54:27 DEBUG TC05_CompletePurchase:28 - Navigating to Laptop & Notebook section
+2026-01-06 00:54:28 DEBUG TC05_CompletePurchase:34 - Validating Laptop & Notebook page
+2026-01-06 00:54:28 DEBUG TC05_CompletePurchase:39 - Selecting product
+2026-01-06 00:54:29 DEBUG TC05_CompletePurchase:44 - Setting delivery date
+2026-01-06 00:54:32 DEBUG TC05_CompletePurchase:47 - Adding product to cart
+2026-01-06 00:54:33 DEBUG TC05_CompletePurchase:50 - Validating Add to Cart alert
+2026-01-06 00:54:36 DEBUG TC05_CompletePurchase:54 - Proceeding to Checkout
+2026-01-06 00:54:36 DEBUG TC05_CompletePurchase:59 - Clicking Checkout login button
+2026-01-06 00:54:46 ERROR TC05_CompletePurchase:85 - Unexpected exception occurred in TC05_CompletePurchase
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //strong[normalize-space()='login page']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3708b35d-2c12-4597-ae02-cfe25f6fbcd4, findElement {value=//strong[normalize-space()='login page'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\santo\.cache\selen..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5216, moz:profile: C:\Users\santo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3708b35d-2c12-4597-ae02-cfe25f6fbcd4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.CheckOutPage.clickLoginbtn(CheckOutPage.java:45)
+	at testCases.TC05_CompletePurchase.testCompletePurchase(TC05_CompletePurchase.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-01-06 00:54:46 INFO  TC05_CompletePurchase:89 - ===== TC05_CompletePurchase Test Finished =====
+2026-01-06 00:54:46 DEBUG BaseClass:171 - Capturing screenshot for test: testCompletePurchase
+2026-01-06 00:54:47 INFO  BaseClass:183 - Screenshot saved at: C:\Users\santo\eclipse-workspace\Bootcamp-AI-Driven-Automation\NinjaV6\screenshots\testCompletePurchase_20260106005446.png
+2026-01-06 00:54:47 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:54:47 INFO  BaseClass:159 - Closing browser and quitting WebDriver
+2026-01-06 00:54:48 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-01-06 00:54:48 DEBUG BaseClass:49 - Operating System: windows
+2026-01-06 00:54:48 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-01-06 00:54:48 DEBUG BaseClass:54 - Loading config.properties file
+2026-01-06 00:54:52 DEBUG BaseClass:128 - WebDriver instance set to ThreadLocal
+2026-01-06 00:54:52 DEBUG BaseClass:132 - Implicit wait set to 10 seconds
+2026-01-06 00:54:52 INFO  BaseClass:135 - Navigating to application URL: https://www.cloudberrystore.services
+2026-01-06 00:54:55 DEBUG BaseClass:139 - Browser window maximized
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-06 00:54:55 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-01-06 00:54:55 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-01-06 00:54:55 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:54:55 DEBUG TC02_Login:28 - Test data used → Email: smitasharma.qa@gmail.com
+2026-01-06 00:54:55 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:54:56 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:54:56 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:54:56 INFO  TC02_Login:50 - Login successful for user: smitasharma.qa@gmail.com
+2026-01-06 00:54:56 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:54:57 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:54:57 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:54:57 DEBUG TC02_Login:28 - Test data used → Email: nona@yahoo.com
+2026-01-06 00:54:57 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:54:57 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:54:57 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:54:57 INFO  TC02_Login:50 - Login successful for user: nona@yahoo.com
+2026-01-06 00:54:57 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:54:58 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:54:58 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:54:58 DEBUG TC02_Login:28 - Test data used → Email: sid@cloudberry.services
+2026-01-06 00:54:58 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:54:58 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:54:58 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:54:58 INFO  TC02_Login:50 - Login successful for user: sid@cloudberry.services
+2026-01-06 00:54:58 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:54:59 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:54:59 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:54:59 DEBUG TC02_Login:28 - Test data used → Email: apushedwoman@gmail.com
+2026-01-06 00:54:59 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:54:59 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:54:59 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:54:59 INFO  TC02_Login:50 - Login successful for user: apushedwoman@gmail.com
+2026-01-06 00:54:59 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:55:00 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:55:00 INFO  TC02_Login:27 - ===== TC02_Login Test Started =====
+2026-01-06 00:55:00 DEBUG TC02_Login:28 - Test data used → Email: hichamkhachiai@gmail.com
+2026-01-06 00:55:00 DEBUG TC02_Login:32 - Navigating to Login page
+2026-01-06 00:55:00 DEBUG TC02_Login:38 - Entering login credentials
+2026-01-06 00:55:00 DEBUG TC02_Login:45 - Validating My Account confirmation
+2026-01-06 00:55:01 INFO  TC02_Login:50 - Login successful for user: hichamkhachiai@gmail.com
+2026-01-06 00:55:01 DEBUG TC02_Login:53 - Performing logout steps
+2026-01-06 00:55:01 INFO  TC02_Login:73 - ===== TC02_Login Test Finished =====
+2026-01-06 00:55:01 INFO  BaseClass:155 - ========== Test Execution Completed ==========
+2026-01-06 00:55:01 INFO  BaseClass:159 - Closing browser and quitting WebDriver
