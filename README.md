@@ -1,20 +1,43 @@
-NinjaV7 – Selenium Hybrid Automation Framework (CloudBerry Store)
-NinjaV7 is an enterprise-grade Selenium Hybrid Automation Framework built for the CloudBerry Store (OpenCart) application.
-This framework follows real-world industry standards and is designed for scalable, maintainable, and high-performance test automation without using BDD/Cucumber.
+🥷 NinjaV7 – Selenium Hybrid Automation Framework
 
-🔧 Tech Stack
-Language: Java
-Automation Tool: Selenium WebDriver 4
-Test Framework: TestNG
-Build Tool: Maven
-Design Pattern: Page Object Model (POM)
-Reporting: Extent Reports
-Logging: Log4j
-CI Ready: Jenkins compatible
-Browser Support: Chrome, Firefox, Edge
+Enterprise-Grade UI Automation Framework for CloudBerry Store (OpenCart)
 
-🧱 Framework Architecture (NinjaV7)
+NinjaV7 is a scalable, maintainable, and high-performance Selenium Hybrid Automation Framework built using Java + Selenium WebDriver 4 + TestNG, following real-world industry standards.
+This framework is designed without BDD/Cucumber, focusing on clean architecture, reusability, and execution efficiency.
 
+🚀 Key Highlights
+
+Enterprise-ready Hybrid Framework
+
+Page Object Model (POM) design
+
+Centralized WebDriver management
+
+TestNG-based execution (Groups, Parallel runs)
+
+Extent HTML reporting
+
+Screenshot capture on failure
+
+Retry mechanism for flaky tests
+
+Multi-browser support
+
+CI/CD friendly (Jenkins-ready)
+
+🧰 Tech Stack
+Component	Technology
+Language	Java
+Automation Tool	Selenium WebDriver 4
+Test Framework	TestNG
+Build Tool	Maven
+Design Pattern	Page Object Model (POM)
+Reporting	Extent Reports
+Logging	Log4j
+CI	Jenkins Compatible
+Browsers	Chrome, Firefox, Edge
+
+🧱 Framework Architecture
 NinjaV7
 ├── src/test/java
 │   ├── pageObjects        # Page Object Model classes
@@ -33,22 +56,15 @@ NinjaV7
 ├── pom.xml                # Maven dependencies
 └── README.md
 
+🌐 Application Under Test
 
-🚀 Key Features
-✅ Hybrid framework design (POM + utilities + TestNG)
-✅ Reusable Page Objects
-✅ Centralized WebDriver management
-✅ TestNG annotations & grouping
-✅ Retry mechanism for flaky tests
-✅ Screenshot capture on failure
-✅ Extent HTML reports
-✅ Data-driven testing support
-✅ Multi-browser execution
-✅ Parallel execution ready
+CloudBerry Store (OpenCart)
+🔗 https://www.cloudberrystore.services
 
 📘 Sample Test Case (Hybrid – TestNG)
 @Test(groups = {"sanity","regression"})
 public void verifyLogin() {
+
     HomePage home = new HomePage(driver);
     LoginPage login = new LoginPage(driver);
 
@@ -64,44 +80,76 @@ public void verifyLogin() {
 
 ▶️ How to Run the Tests
 🔹 Run via TestNG XML
-Right click testng.xml → Run as TestNG Suite
+
+Right-click testng.xml
+
+Select Run As → TestNG Suite
+
 🔹 Run via Maven
 mvn test
-
-🌐 Application Under Test
-CloudBerry Store (OpenCart)
-https://www.cloudberrystore.services
 
 🧪 Test Execution Control
 🔹 Run by TestNG Groups
 <groups>
-  <run>
-    <include name="sanity"/>
-  </run>
+    <run>
+        <include name="sanity"/>
+    </run>
 </groups>
+
 🔹 Parallel Execution
 <suite parallel="tests" thread-count="3">
 
-📊 Reports
-Extent Report: Generated after execution
+📊 Reports & Logs
+📈 Extent Report
+
+Generated automatically after execution
+
+Path:
+
 /test-output/ExtentReport.html
 
-Screenshots: Captured automatically on test failure
+📸 Screenshots
+
+Automatically captured on test failure
+
+Stored under:
+
+/screenshots
 
 🧠 Framework Design Philosophy
+
 Built for enterprise UI automation
+
 Clear separation of concerns
-Easy to extend for new modules
-Designed for real client projects & interviews
+
+Easy to maintain and extend
+
+Follows real client project standards
+
+Ideal for interviews & production use
 
 🧩 Future Enhancements
-CI/CD integration with Jenkins
+
+Jenkins CI/CD pipeline
+
 Selenium Grid / Docker support
+
 Cloud execution (BrowserStack / Sauce Labs)
-API automation integration
+
+API Automation integration (Rest Assured)
 
 👨‍🏫 Author
-Santosh Chandrawanshi CloudBerry QA Automation | Selenium | Hybrid Framework | TestNG | CI/CD
+
+Santosh Chandrawanshi
+CloudBerry QA Automation
+Selenium | Java | Hybrid Framework | TestNG | CI/CD
 
 ⭐ Support
-If you find this framework useful, give the repository a ⭐ and feel free to fork it.
+
+If you find this framework useful:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🧠 Learn & customize for your projects
